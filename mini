@@ -1,0 +1,5 @@
+# radio web minima fm
+toilet -F metal m i n i m a
+echo                                                                   FM
+mplayer http://stream.ouveai.com.br:7014/;
+

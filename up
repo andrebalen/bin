@@ -1,0 +1,8 @@
+# atualiza o git com o mais recente
+toilet -F metal git update
+echo -------------------------------------------------------------
+# mplayer http://stream.ouveai.com.br:7014/;
+git add *
+git commit -m 'webradioz and utilz'
+git push -u origin master
+echo --------------------------- done

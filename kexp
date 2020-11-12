@@ -1,0 +1,5 @@
+# radio web KEXP seattle
+toilet -F metal K E X P seattle
+echo FM
+mplayer https://kexp-mp3-128.streamguys1.com/kexp128.mp3
+

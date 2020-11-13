@@ -3,6 +3,7 @@ toilet -F metal git update
 echo -------------------------------------------------------------
 # mplayer http://stream.ouveai.com.br:7014/;
 git add *
-git commit -m 'webradioz and utilz'
-git push -u origin master
+git commit -m 'format converters'
+#git push -u origin master
+git push
 echo --------------------------- done

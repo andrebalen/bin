@@ -1,0 +1,30 @@
+# utiliza uma interface para digitalizar vinyl e lidar com o AD
+# a partir de um ponto de vista hdmi, interface behringer UCA202
+# fonte: https://softsolder.com/2019/09/05/ripping-vinyl-records-on-a-raspberry-pi/
+# hw: https://www.amazon.com/Behringer-U-Phono-UFO202-Audiophile-Interface/dp/B002GHBYZ0/ref=pd_sbs_267_3/140-9049667-1082605?_encoding=UTF8&pd_rd_i=B002GHBYZ0&pd_rd_r=9d578140-0adf-4acd-98de-d207c1e7702f&pd_rd_w=aHizy&pd_rd_wg=xmA82&pf_rd_p=ee4a13a5-1d19-4a45-a832-a74924eb9541&pf_rd_r=0ED9A9DSJR4AZ28MFYEB&refRID=0ED9A9DSJR4AZ28MFYEB&th=1
+
+toilet -F metal vinyl
+echo -------------------------the Ripper----------------
+
+# dizclaimer
+#
+# to do this u need and intarface like UCA202 audio box
+# and connect all in(s) to hdmi out, for the viewpoint of a Rpi
+# is much more easyer to do 
+
+echo "please configure path to output wave filez " 
+echo "then activate uncomenting"
+
+# only listing devices
+arecord -l
+echo " alsa options ... "
+arecord -L
+echo "current hw i can see"
+#arecord --dump-hw-params 
+
+# here is the capture, please adjust path to output
+# arecord --format=dat --mmap --vumeter=stereo --buffer-time=2000000 --duration=$(( 30 * 60 ))  /mnt/part/Side\ 1.wav
+
+
+
+echo ------------------------------------------ done

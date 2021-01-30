@@ -1,5 +1,5 @@
 # radio web antenaZero Rebel
 toilet -F metal AntenaZero Rebel
 echo Anarquist webradio
-mplayer https://servidor15-3.brlogic.com:7740/live
-
+# mplayer https://servidor15-3.brlogic.com:7740
+mpv https://servidor15-3.brlogic.com:7740/live
